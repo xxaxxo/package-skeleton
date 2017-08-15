@@ -1,5 +1,5 @@
 {
-  "name": "xXc/PackageName",
+  "name": "xxc/packagename",
   "description": "",
   "keywords": [""],
   "authors": [
@@ -9,15 +9,14 @@
     }
   ],
   "require": {
-    "php": "^5.5.9 || ^7.0",
+    "php": "^5.5.9 || ^7.0"
   },
   "require-dev": {
     "phpspec/phpspec": "^3.4"
   },
   "autoload": {
     "psr-4": {
-      "App\\": "app/",
-      "xXc\\PackageName": "src/"
+      "xXc\\PackageName\\": "src"
     },
     "files": [
 
@@ -32,7 +31,7 @@
 
       ],
       "providers": [
-        "xXc\\PackageNameServiceProvider"
+        "xXc\\PackageName\\PackageNameServiceProvider"
       ]
     }
   }

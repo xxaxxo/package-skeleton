@@ -7,14 +7,18 @@
 
 namespace xXc\PackageName;
 
+use Illuminate\Support\ServiceProvider;
 
-class PackageNameServiceProvider
+class PackageNameServiceProvider extends ServiceProvider
 {
     public function boot()
     {}
 
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'skeleton');
+        if(file_exists(__DIR__.'/../config/config.php'))
+        {
+            $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'PackageName');
+        }
     }
 }
