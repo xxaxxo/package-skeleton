@@ -1,0 +1,25 @@
+{
+  "name": "xXc/",
+  "description": "",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Michael Kumar",
+      "email": "m.kumar@abv.bg"
+    }
+  ],
+  "require": {
+    "": ""
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^3.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "xXc\\": "src/"
+    },
+    "files": [
+
+    ]
+  }
+}
