@@ -1,4 +1,4 @@
-Skeleton for fast creation of packages
+# Skeleton for fast creation of packages #
 
 Steps:
 <ul>
@@ -20,7 +20,7 @@ Steps:
 </li>
 </ul>
 
-##Branches
-###Master - for normal packages
-###feature/laravel-skeleton - for laravel packages
+## Branches ##
+### Master - for normal packages ###
+### feature/laravel-skeleton - for laravel packages ###
 
