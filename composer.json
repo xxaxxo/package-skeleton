@@ -1,5 +1,5 @@
 {
-  "name": "xXc/",
+  "name": "xXc/PackageName",
   "description": "",
   "type": "project",
   "authors": [
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-0": {
-      "xXc\\": "src/"
+      "xXc\\PackageName\\": "src"
     },
     "files": [
 
