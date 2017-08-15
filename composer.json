@@ -1,7 +1,7 @@
 {
-  "name": "xXc/",
+  "name": "xXc/PackageName",
   "description": "",
-  "type": "project",
+  "keywords": [""],
   "authors": [
     {
       "name": "Michael Kumar",
@@ -9,17 +9,31 @@
     }
   ],
   "require": {
-    "": ""
+    "php": "^5.5.9 || ^7.0",
   },
   "require-dev": {
     "phpspec/phpspec": "^3.4"
   },
   "autoload": {
-    "psr-0": {
-      "xXc\\": "src/"
+    "psr-4": {
+      "App\\": "app/",
+      "xXc\\PackageName": "src/"
     },
     "files": [
 
     ]
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "extra": {
+    "laravel": {
+      "aliases": [
+
+      ],
+      "providers": [
+        "xXc\\PackageNameServiceProvider"
+      ]
+    }
   }
 }
