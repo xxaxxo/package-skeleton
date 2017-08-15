@@ -4,4 +4,3 @@ composer.lock
 composer.phar
 /docs/
 /node_modules/
-/vendor/
