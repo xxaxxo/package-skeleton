@@ -2,6 +2,7 @@
   "name": "xXc/PackageName",
   "description": "",
   "type": "project",
+  "keywords": ["xxc"],
   "authors": [
     {
       "name": "Michael Kumar",
@@ -15,11 +16,12 @@
     "phpspec/phpspec": "^3.4"
   },
   "autoload": {
-    "psr-0": {
-      "xXc\\PackageName\\": "src"
+    "psr-4": {
+      "xxc\\packagename\\": "src"
     },
     "files": [
 
     ]
-  }
+  },
+  "license": "MIT"
 }

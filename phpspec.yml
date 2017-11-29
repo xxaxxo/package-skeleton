@@ -1,0 +1,5 @@
+suites:
+   acme_suite:
+       namespace:  xxc\PackageName\
+       psr4_prefix:  xxc\PackageName
+       src_path:  src/
