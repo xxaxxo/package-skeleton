@@ -1,7 +1,8 @@
 {
-  "name": "xxc/packagename",
+  "name": "xXc/PackageName",
   "description": "",
-  "keywords": [""],
+  "type": "project",
+  "keywords": ["xxc"],
   "authors": [
     {
       "name": "Michael Kumar",
@@ -16,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "xXc\\PackageName\\": "src"
+      "xxc\\packagename\\": "src"
     },
     "files": [
 
